@@ -2,32 +2,58 @@ body {
   margin: 0;
 }
 footer {
-  padding: 8px;
+  padding-top: 32px;
+  padding-left: 8px;
+  padding-bottom: 8px;
 }
 h1 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#header {
+.header {
   display: flex;
   align-items: center;
   padding: 16px;
-  background-color: gray;
+  background-color: rgb(146, 172, 195);
 }
-#header > div {
+.header > div {
   flex: 1;
 }
 #profilePhoto {
   border-radius: 100%;
   height: 20vh
 }
-#nav {
+.nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-#nav p {
+.nav p {
  margin: 0;
+}
+#main {
+  background-color: rgb(201, 227, 250);
+}
+#main2 {
+  background-color: rgb(201, 227, 250);
+  height: 100%;
+}
+.hobbiesLink {
+  background-color: rgb(201, 227, 250);
+  padding: 4px;
+  border-radius: 4px;
+}
+.hobbySubSec {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.hobbySubSec img{
+  height: 40vh
+}
+#footer2 {
+  display: flex;
+  background-color: rgb(201, 227, 250);
 }
 .section {
   padding-top: 16px;
@@ -43,4 +69,8 @@ h1 {
 }
 hr {
   margin: 16px;
+}
+#gitHubLink:hover {
+  background-color: rgb(164, 186, 206);
+  border-radius: 100%;
 }
